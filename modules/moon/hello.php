@@ -1,5 +1,5 @@
 <?php
-namespace Modules\jiny;
+namespace Modules\moon;
 
 // 클래스 선언
 class Hello
@@ -8,7 +8,7 @@ class Hello
     // 메소드 함.
     public function greeting()
     {
-        echo "Jiny!! hello world";
+        echo "Mooooon!! hello world";
     }
 }
   
