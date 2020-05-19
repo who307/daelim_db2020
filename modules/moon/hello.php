@@ -48,7 +48,6 @@ class Hello
             } else {
                 echo "DB접속 실패.....";
             }
-
         } else {
             echo "PDO 드라이버가 활성화 되어 있지 않습니다.\n";
             exit(1); // 오류 종료
