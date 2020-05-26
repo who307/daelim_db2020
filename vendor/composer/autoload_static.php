@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5a2a375ab1d751df5c796118ed697e78
+class ComposerStaticInit541e43d22b6c0217e64242c6fa251248
 {
     public static $files = array (
         'a6e27c98c00945ead28d695037bfc102' => __DIR__ . '/..' . '/jiny/mysql/src/Helpers/Helper.php',
@@ -44,8 +44,8 @@ class ComposerStaticInit5a2a375ab1d751df5c796118ed697e78
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5a2a375ab1d751df5c796118ed697e78::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5a2a375ab1d751df5c796118ed697e78::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit541e43d22b6c0217e64242c6fa251248::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit541e43d22b6c0217e64242c6fa251248::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }
